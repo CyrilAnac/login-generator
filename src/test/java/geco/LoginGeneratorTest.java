@@ -32,4 +32,9 @@ public class LoginGeneratorTest extends TestCase {
         assertEquals("the result should be PDUR", "PDUR", res);
     }
 
+    public void testGenerateLoginPaulDu() {
+        String res = logG.generateLoginForNomAndPrenom("Du", "Paul");
+        assertEquals("the result should be PDUR", "PDU", res);
+    }
+
 }
